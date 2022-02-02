@@ -1,0 +1,96 @@
+
+
+body {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.main-content h1{
+    margin: 10px;
+    
+}
+
+.flex-container {
+    display: flex;
+}
+
+/* --------COL 1--------- */
+
+.col1 {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.col1 img {
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.usercard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.usercard a,
+.usercard h3 {
+    margin-bottom: 10px;
+}
+
+/* ---------COL 4---------- */
+
+.col4 {
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.likes-card {
+    border: 2px solid black;
+    width: 850px;
+    padding: 10px 20px;
+    height: 125px;
+    margin-bottom: 20px;
+}
+
+.likes-card p {
+    text-align: left;
+    font-weight: bold;
+}
+
+.likes-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 130px;
+    font-weight: bolder;
+}
+
+.likes-flex button {
+    background-color: rgb(235, 199, 43);
+    border: none;
+    padding: 5px 15px;
+    box-shadow: 3px 3px black;
+}
+
